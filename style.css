@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    padding: 20px;
+    border: 10px groove indianred;
+}
+
+section:nth-child(1) {
+    background-color: red;
+}
+
+section:nth-child(2) {
+    background-color: blue;
+}
+
+section:nth-child(3) {
+    background-color: green;
+}
