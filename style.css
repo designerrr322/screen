@@ -10,7 +10,7 @@ body {
 section {
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 100dvh;
     padding: 20px;
     border: 10px groove indianred;
 }
